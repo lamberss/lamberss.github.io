@@ -7,6 +7,7 @@ SITENAME = 'lamberss blog'
 SITEURL = ''
 
 PATH = 'content'
+THEME = '/home/lamberss/.pelican-themes/pelican-bootstrap3'
 
 TIMEZONE = 'America/Chicago'
 
