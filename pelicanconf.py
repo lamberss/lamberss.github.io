@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Steven E. Lamberson Jr.'
-SITENAME = 'lamberss blog'
+AUTHOR = 'Steven E. Lamberson, Jr.'
+SITENAME = 'Gaming, Computing, and Physics'
 SITEURL = ''
 
 PATH = 'content'
