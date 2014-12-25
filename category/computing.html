@@ -1,138 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-		<title>Gaming, Computing, and Physics &mdash; Articles in Category Computing</title>
-		<meta charset="utf-8" />
-		<link rel="profile" href="http://gmpg.org/xfn/11" />
-		<link rel="stylesheet" type="text/css" href="../theme/css/style.css" />
-		<link rel='stylesheet' id='oswald-css'  href='http://fonts.googleapis.com/css?family=Oswald&#038;ver=3.3.2' type='text/css' media='all' />
-		<style type="text/css">
-			body.custom-background { background-color: #f5f5f5; }
-		</style>
-		<link rel="alternate" type="application/atom+xml"
-			title="Gaming, Computing, and Physics — Flux Atom"
-			href="../" /> 
-		<!--[if lte IE 8]><script src="../theme/js/html5shiv.js"></script><![endif]-->
-</head>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Steven E. Lamberson, Jr." />
+        <meta name="copyright" content="Steven E. Lamberson, Jr." />
 
-<body class="home blog custom-background single-author" >
-	<div id="container">
-		<div id="header">
-				<h1 id="site-title"><a href="..">Gaming, Computing, and Physics</a></h1>
-<h2 id="site-description">or whatever else I might feel like talking about</h2>		</div><!-- /#banner -->
-		
-		<div id="menu">
-			<div class="menu-navigation-container">
-				<ul id="menu-navigation" class="menu">
-						<li class="active" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../category/computing.html">Computing</a></li>
+        <title>Gaming, Computing, and Physics
+</title>
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="../theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="../theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="../theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="../theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="../theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="../theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="../theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="../theme/images/apple-touch-icon-144x144.png" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="../"><span class=site-name>Gaming, Computing, and Physics</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="..">Home</a></li>
+                            <li ><a href="../categories.html">Categories</a></li>
+                            <li ><a href="../tags.html">Tags</a></li>
+                            <li ><a href="../archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="../search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<div class="row-fluid">
 
-				</ul>
-			</div> <!--/#menu-navigation-container-->
-		</div><!-- /#menu -->
-		
-		<div class="page-title">
-<div class="page-title">
-	<h2>Filed under <span>Computing</span> &hellip;</h2>
-</div>
-		</div>
-	
-		<div id="contents">
-<div class="post type-post status-publish format-standard hentry category-general" id="post">
-	<div class="entry-meta">
-		<div class="date"><a href="../posts/2014/12/moving-back-to-github/">Dec 20 2014</a></div>
-			<span class="cat-links"><a href="../category/computing.html" title="View all posts in Computing" rel="category tag">Computing</a></span>
-	</div> <!-- /#entry-meta -->
-	<div class="main">
-		<h2 class="entry-title">
-			<a href="../posts/2014/12/moving-back-to-github/" title="Permalink to Moving Back to Github" rel="bookmark">Moving Back to Github</a>
-		</h2>
-		<div class="entry-content">
-			<div class="section" id="once-upon-a-time">
-<h2>Once Upon A Time</h2>
-<p>Once upon a time, a long time ago, I was a happy <a class="reference external" href="https://github.com">github</a> user.  However these
-were the days before github pages, <a class="reference external" href="https://travis-ci.org/">travis-ci</a>, and <a class="reference external" href="https://readthedocs.org/">readthedocs</a> (or, if they
-existed, I didn't know about them).  I needed to have some other service to
-host my blog, do my continuous integration testing, and host my software's
-built documentation.  After looking around for options I decided that I was
-just going to host them myself using <a class="reference external" href="https://wordpress.org/">wordpress</a>, <a class="reference external" href="http://jenkins-ci.org/">jenkins</a>, and some home-grown
-post-commit hooks to build and move the documentation to my web server.</p>
-<p>Since I was going to be hosting some of my own applications anyway, I started
-wondering if I should replace github with my own git repository mirror and
-issue tracker.  I don't remember all my thoughts that went into that decision,
-but I do remember holding many of the opinions expressed <a class="reference external" href="http://bytbox.net/blog/2012/08/leaving-github.html">here</a>.  Particularly I
-remember being disatisifed with github's pull requests being incompatible with
-git's pull requests (an opinion shared by others, including <a class="reference external" href="https://github.com/torvalds/linux/pull/17#issuecomment-5654674">Linus Torvalds</a>).  I also remember seeing a few features in <a class="reference external" href="http://www.redmine.org/">redmine</a> that were not available in github's issue tracker, but I don't remember now what those features were.</p>
-<p>I also suffer from the affliction of being fiercly independent.  Why let
-someone else host my stuff when I am perfectly capable of doing it on my own?</p>
-</div>
-<div class="section" id="self-hosted-solution">
-<h2>Self-hosted Solution</h2>
-<p>So, I decided to move to an entirely self-hosted solution.  Well, not
-&quot;entirely&quot;.  I had it all set up on a linode, not my own hardware, but apart
-from that I did it all myself.  I hosted the git repositories using <a class="reference external" href="http://gitolite.com/gitolite/">gitolite</a>
-and provided a browser view to them using <a class="reference external" href="http://git.zx2c4.com/cgit/about/">cgit</a>.  I set up a <a class="reference external" href="http://www.redmine.org/">redmine</a> issue
-tracker and had a <a class="reference external" href="http://jenkins-ci.org/">jenkins</a> continuous integration server, that were both
-tightly coupled to the git repositories containing the code they were
-interested in.  I had my own <a class="reference external" href="https://wordpress.org/">wordpress</a> instance to host my blog (which I
-eventually ditched for <a class="reference external" href="http://blog.getpelican.com/">pelican</a>).  I even eventually had my own instance of
-<a class="reference external" href="https://readthedocs.org/">readthedocs</a> to automatically build the documentation.  And all of this was
-hosted using <a class="reference external" href="http://nginx.org/en/">nginx</a> and <a class="reference external" href="https://uwsgi-docs.readthedocs.org/en/latest/">uwsgi</a>.</p>
-<p>It was a pretty sweet setup.  It took several months to get setup, but by the
-end it was awesome.  But it was also fragile.</p>
-<p>I initially tried to set it up on <a class="reference external" href="http://centos.org/">centos</a> and <a class="reference external" href="https://www.debian.org/">debian</a>, but I couldn't get
-redmine to work in uwsgi on either of those.  I finally tried again using
-<a class="reference external" href="https://www.archlinux.org/">archlinux</a> and was able to get it working.  This worked great for a while, but
-the redmine/uwsgi setup would break about once a month after updating the box,
-even when updating packages that didn't seem like they'd matter to the setup.</p>
-</div>
-<div class="section" id="reflecting-on-the-choice">
-<h2>Reflecting on the Choice</h2>
-<p>I had just finished fixing the redmine/uwsgi setup again after an update from
-archlinux when I realized something.  I had just spent all of my free time for
-the day fixing my software infrastructure instead of doing what I really wanted
-to do, which was work on one of my software applications.  I pondered the
-situation over the next few days, and eventually decided to abandon my setup
-and move to a less self-hosted plan.  I do not regret my earlier decision to go
-self-hosted because I learned a lot about various technologies and about
-myself, but I am definitely ready for something else.</p>
-<p>Here are some of the things I learned, in no particular order.  Maybe they will
-help other people make their own decision, but at least they will remind me of
-how I felt when I get the itch to do it myself in a few months or years.</p>
-<ul class="simple">
-<li><strong>I would much rather spend my time developing my software applications than
-maintaining my software infrastructure.</strong> I had come to this conclusion
-before when it came to Linux distributions and window managers vs. desktop
-environments, but it applies to this as well.</li>
-<li><strong>I hate deploying ruby/rails apps.</strong>  The php and C applications I deployed
-were all very simple to setup, but the ruby/rails applications were much
-harder to do and much more fragile.  The python applications I tried were
-also a challenge, but they didn't seem near as bad as the ruby ones.  Maybe I
-just need more experience, but my current thinking is I will never host my
-own ruby application ever again.</li>
-</ul>
-</div>
-<div class="section" id="back-to-github">
-<h2>Back to Github</h2>
-<p>So, here I am, moving back to <a class="reference external" href="https://github.com">github</a>.  I'll do everything I can on github,
-like issue tracking and git hosting, and I'll use <a class="reference external" href="https://readthedocs.org/">readthedocs</a> to host my
-documentation and <a class="reference external" href="https://travis-ci.org/">travis-ci</a> to host my continuous integration testing.  I've
-even moved my blog to using github pages.  Hopefully this will be a good
-solution for me.  At a minimum it will leave me more time to actually work in
-my applications.</p>
-</div>
+    <div class="row-fluid">
 
-		</div> <!--/#entry-content-->
-    		<span class="tag-links"><strong>Tagged</strong>
- <a href="../tag/archlinux.html" rel="tag">archlinux</a>,  <a href="../tag/centos.html" rel="tag">centos</a>,  <a href="../tag/cgit.html" rel="tag">cgit</a>,  <a href="../tag/debian.html" rel="tag">debian</a>,  <a href="../tag/git.html" rel="tag">git</a>,  <a href="../tag/github.html" rel="tag">github</a>,  <a href="../tag/gitolite.html" rel="tag">gitolite</a>,  <a href="../tag/jenkins.html" rel="tag">jenkins</a>,  <a href="../tag/nginx.html" rel="tag">nginx</a>,  <a href="../tag/redmine.html" rel="tag">redmine</a>,  <a href="../tag/travis-ci.html" rel="tag">travis-ci</a>,  <a href="../tag/uwsgi.html" rel="tag">uwsgi</a>,  <a href="../tag/wordpress.html" rel="tag">wordpress</a>    		</span>
-	</div> <!--/#main-->
-</div>  <!--/#post--><div class="navigation">
+    </div>
+
+    <div class="row-fluid">
+        <div class="span12">
+            <header>
+            <h1 id="recent-posts">Recent Posts <a id="allposts" href="../archives.html">all posts</a></h1>
+            </header>
+            <ul class="list-all-articles">
+                <li>
+                <a href="../posts/2014/12/moving-back-to-github/">Moving Back to Github  </a> 
+                <time pubdate="pubdate" datetime="2014-12-20T11:03:14-06:00">Dec 20 2014</time>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
-		</div>
-		
-		<div id="footer">
-			<p>Powered by <a href="http://pelican.readthedocs.org">Pelican</a>, theme by <a href="http://bunnyman.info">tBunnyMan</a>.</p>
-		</div><!-- /#footer -->
-	</div><!-- /#container -->
-	<div style="display:none"></div>
-</body>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-subtitle"><span class="site-name">Gaming, Computing, and Physics</span> - or whatever else I might feel like talking about</li>
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+    </body>
 </html>
