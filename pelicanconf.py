@@ -8,7 +8,7 @@ SITEURL = ''
 
 PATH = 'content'
 THEME = '/home/lamberss/.pelican-themes/elegant'
-PLUGIN_PATH = '/home/lamberss/.pelican-plugins'
+PLUGIN_PATHS = ['/home/lamberss/.pelican-plugins']
 
 # CHUNK theme inputs
 DEFAULT_DATE_FORMAT = ('%b %d %Y')
