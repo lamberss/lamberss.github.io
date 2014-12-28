@@ -1,14 +1,15 @@
 Moving Back to Github
 #####################
 
-:date: 2014-12-20T11:03:14-0600
-:modified: 2014-12-27T11:03:14-0600
+:date: Dec 20, 2014 
+:modified: Dec 27, 2014
 :slug: moving-back-to-github
-:disqus_identifier: moving-back-to-github
 :authors: Steven E. Lamberson Jr.
 :tags: archlinux, centos, cgit, debian, git, github, gitolite, jenkins, nginx, redmine, travis-ci, uwsgi, wordpress
 :category: Computing
 :summary: After a long hiatus I am back to github.
+
+.. contents::
 
 Once Upon A Time
 ----------------
