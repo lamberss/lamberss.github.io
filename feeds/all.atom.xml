@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gaming, Computing, and Physics</title><link href="https://lamberss.github.io/" rel="alternate"></link><link href="https://lamberss.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lamberss.github.io/</id><updated>2014-12-27T00:00:00-06:00</updated><entry><title>Moving Back to Github</title><link href="https://lamberss.github.io/posts/2014/12/moving-back-to-github/" rel="alternate"></link><updated>2014-12-27T00:00:00-06:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2014-12-20:posts/2014/12/moving-back-to-github/</id><summary type="html">&lt;div class="section" id="once-upon-a-time"&gt;
-&lt;h2&gt;Once Upon A Time&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gaming, Computing, and Physics</title><link href="https://lamberss.github.io/" rel="alternate"></link><link href="https://lamberss.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lamberss.github.io/</id><updated>2014-12-27T00:00:00-06:00</updated><entry><title>Moving Back to Github</title><link href="https://lamberss.github.io/posts/2014/12/moving-back-to-github/" rel="alternate"></link><updated>2014-12-27T00:00:00-06:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2014-12-20:posts/2014/12/moving-back-to-github/</id><summary type="html">
+&lt;div class="section" id="once-upon-a-time"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Once Upon A Time&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Once upon a time, a long time ago, I was a happy &lt;a class="reference external" href="https://github.com"&gt;github&lt;/a&gt; user.  However these
 were the days before github pages, &lt;a class="reference external" href="https://travis-ci.org/"&gt;travis-ci&lt;/a&gt;, and &lt;a class="reference external" href="https://readthedocs.org/"&gt;readthedocs&lt;/a&gt; (or, if they
 existed, I didn't know about them).  I needed to have some other service to
@@ -18,9 +19,9 @@ git's pull requests (an opinion shared by others, including &lt;a class="referen
 someone else host my stuff when I am perfectly capable of doing it on my own?&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="self-hosted-solution"&gt;
-&lt;h2&gt;Self-hosted Solution&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;Self-hosted Solution&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;So, I decided to move to an entirely self-hosted solution.  Well, not
-&amp;quot;entirely&amp;quot;.  I had it all set up on a linode, not my own hardware, but apart
+"entirely".  I had it all set up on a linode, not my own hardware, but apart
 from that I did it all myself.  I hosted the git repositories using &lt;a class="reference external" href="http://gitolite.com/gitolite/"&gt;gitolite&lt;/a&gt;
 and provided a browser view to them using &lt;a class="reference external" href="http://git.zx2c4.com/cgit/about/"&gt;cgit&lt;/a&gt;.  I set up a &lt;a class="reference external" href="http://www.redmine.org/"&gt;redmine&lt;/a&gt; issue
 tracker and had a &lt;a class="reference external" href="http://jenkins-ci.org/"&gt;jenkins&lt;/a&gt; continuous integration server, that were both
@@ -38,7 +39,7 @@ the redmine/uwsgi setup would break about once a month after updating the box,
 even when updating packages that didn't seem like they'd matter to the setup.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="reflecting-on-the-choice"&gt;
-&lt;h2&gt;Reflecting on the Choice&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id3"&gt;Reflecting on the Choice&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I had just finished fixing the redmine/uwsgi setup again after an update from
 archlinux when I realized something.  I had just spent all of my free time for
 the day fixing my software infrastructure instead of doing what I really wanted
@@ -64,7 +65,7 @@ own ruby application ever again.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="back-to-github"&gt;
-&lt;h2&gt;Back to Github&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id4"&gt;Back to Github&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;So, here I am, moving back to &lt;a class="reference external" href="https://github.com"&gt;github&lt;/a&gt;.  I'll do everything I can on github,
 like issue tracking and git hosting, and I'll use &lt;a class="reference external" href="https://readthedocs.org/"&gt;readthedocs&lt;/a&gt; to host my
 documentation and &lt;a class="reference external" href="https://travis-ci.org/"&gt;travis-ci&lt;/a&gt; to host my continuous integration testing.  I've
