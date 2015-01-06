@@ -24,7 +24,13 @@ r"""
 LANDING_PAGE_ABOUT = {'details': SEL_about}
 PROJECTS = [{'name': 'acolyteGM',
              'url': 'https://github.com/lamberss/acolyteGM',
-             'description': 'A tool to help RPG GMs to prep for and run games.'}]
+             'description': 'A tool to help RPG GMs to prep for ' + \
+             'and run games.'},
+            {'name': 'improv',
+             'url': 'https://github.com/lamberss/improv',
+             'description': 'A numerical optimization library for ' +\
+             'python.'}
+        ]
 
 # CHUNK theme inputs
 DEFAULT_DATE_FORMAT = ('%Y-%m-%d') #('%b %d %Y')
