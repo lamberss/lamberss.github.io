@@ -65,13 +65,13 @@ SOCIAL = (('Github', 'https://github.com/lamberss'),
 
 DEFAULT_PAGINATION = 10
 
-ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
 AUTHOR_URL = 'author/{slug}'
 AUTHOR_SAVE_AS = 'author/{slug}/index.html'
-CATEGORY_URL = 'category/{slug}/'
+CATEGORY_URL = 'category/{slug}'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
-DRAFT_URL = 'drafts/{slug}/'
+DRAFT_URL = 'drafts/{slug}'
 DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
 PAGE_URL = 'pages/{slug}'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
