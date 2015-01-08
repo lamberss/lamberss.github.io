@@ -61,6 +61,7 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/lamberss'),
+          ('Google+', 'https://google.com/+StevenLamberson'),
           ('Email', 'mailto:steven.lamberson@gmail.com'),)
 
 DEFAULT_PAGINATION = 10
