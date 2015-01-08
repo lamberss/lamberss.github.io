@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://lamberss.github.io/index.html</loc>
-<lastmod>2015-01-08T15:42:14-00:00</lastmod>
+<lastmod>2015-01-08T15:58:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://lamberss.github.io/archives.html</loc>
-<lastmod>2015-01-08T15:42:14-00:00</lastmod>
+<lastmod>2015-01-08T15:58:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://lamberss.github.io/tags.html</loc>
-<lastmod>2015-01-08T15:42:14-00:00</lastmod>
+<lastmod>2015-01-08T15:58:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://lamberss.github.io/categories.html</loc>
-<lastmod>2015-01-08T15:42:14-00:00</lastmod>
+<lastmod>2015-01-08T15:58:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -46,42 +46,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://lamberss.github.io/tag/gitolite</loc>
-<lastmod>2015-01-08T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://lamberss.github.io/tag/uwsgi</loc>
-<lastmod>2015-01-08T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://lamberss.github.io/tag/nginx</loc>
-<lastmod>2015-01-08T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://lamberss.github.io/tag/archlinux</loc>
-<lastmod>2015-01-08T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://lamberss.github.io/tag/jenkins</loc>
-<lastmod>2015-01-08T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://lamberss.github.io/tag/travis-ci</loc>
+<loc>https://lamberss.github.io/tag/cgit</loc>
 <lastmod>2015-01-08T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -95,14 +60,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://lamberss.github.io/tag/cgit</loc>
+<loc>https://lamberss.github.io/tag/centos</loc>
 <lastmod>2015-01-08T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://lamberss.github.io/tag/redmine</loc>
+<loc>https://lamberss.github.io/tag/archlinux</loc>
 <lastmod>2015-01-08T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -116,7 +81,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://lamberss.github.io/tag/centos</loc>
+<loc>https://lamberss.github.io/tag/nginx</loc>
+<lastmod>2015-01-08T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://lamberss.github.io/tag/github</loc>
+<lastmod>2015-01-08T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://lamberss.github.io/tag/redmine</loc>
 <lastmod>2015-01-08T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -130,7 +109,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://lamberss.github.io/tag/github</loc>
+<loc>https://lamberss.github.io/tag/jenkins</loc>
+<lastmod>2015-01-08T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://lamberss.github.io/tag/uwsgi</loc>
+<lastmod>2015-01-08T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://lamberss.github.io/tag/gitolite</loc>
+<lastmod>2015-01-08T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://lamberss.github.io/tag/travis-ci</loc>
 <lastmod>2015-01-08T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
