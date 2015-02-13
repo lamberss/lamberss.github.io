@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gaming, Computing, and Physics</title><link href="https://lamberss.github.io/" rel="alternate"></link><link href="https://lamberss.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lamberss.github.io/</id><updated>2015-02-13T00:00:00-06:00</updated><entry><title>Solitaire RPG Experiment</title><link href="https://lamberss.github.io/posts/2015/02/solitaire-rpg-experiment" rel="alternate"></link><updated>2015-02-13T00:00:00-06:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2015-02-13:posts/2015/02/solitaire-rpg-experiment</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gaming, Computing, and Physics</title><link href="https://lamberss.github.io/" rel="alternate"></link><link href="https://lamberss.github.io/feeds/gaming.atom.xml" rel="self"></link><id>https://lamberss.github.io/</id><updated>2015-02-13T00:00:00-06:00</updated><entry><title>Solitaire RPG Experiment</title><link href="https://lamberss.github.io/posts/2015/02/solitaire-rpg-experiment" rel="alternate"></link><updated>2015-02-13T00:00:00-06:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2015-02-13:posts/2015/02/solitaire-rpg-experiment</id><summary type="html">
 &lt;img alt="" class="align-left" src="https://lamberss.github.io/images/dice_and_sheets.jpg" style="width: 150px;"/&gt;
 &lt;div class="section" id="when-addicitons-aren-t-fed"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;When Addicitons Aren't Fed&lt;/a&gt;&lt;/h2&gt;
@@ -158,79 +158,4 @@ will be able to take this framework and apply it to my own content in order
 to actually start writing that book I've been thinking about for almost 20
 years.&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="d&amp;d"></category><category term="myth-weavers"></category><category term="Pathfinder"></category><category term="rpg"></category><category term="thetangledweb"></category></entry><entry><title>Moving Back to Github</title><link href="https://lamberss.github.io/posts/2014/12/moving-back-to-github" rel="alternate"></link><updated>2015-01-08T00:00:00-06:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2014-12-20:posts/2014/12/moving-back-to-github</id><summary type="html">
-&lt;img alt="" class="align-left" src="https://lamberss.github.io/images/Octocat.png" style="width: 150px;"/&gt;
-&lt;div class="section" id="once-upon-a-time"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Once Upon A Time&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Once upon a time, a long time ago, I was a happy &lt;a class="reference external" href="https://github.com"&gt;github&lt;/a&gt; user.  However these
-were the days before github pages, &lt;a class="reference external" href="https://travis-ci.org/"&gt;travis-ci&lt;/a&gt;, and &lt;a class="reference external" href="https://readthedocs.org/"&gt;readthedocs&lt;/a&gt; (or, if they
-existed, I didn't know about them).  I needed to have some other service to
-host my blog, do my continuous integration testing, and host my software's
-built documentation.  After looking around for options I decided that I was
-just going to host them myself using &lt;a class="reference external" href="https://wordpress.org/"&gt;wordpress&lt;/a&gt;, &lt;a class="reference external" href="http://jenkins-ci.org/"&gt;jenkins&lt;/a&gt;, and some home-grown
-post-commit hooks to build and move the documentation to my web server.&lt;/p&gt;
-&lt;p&gt;Since I was going to be hosting some of my own applications anyway, I started
-wondering if I should replace github with my own git repository mirror and
-issue tracker.  I don't remember all my thoughts that went into that decision,
-but I do remember holding many of the opinions expressed &lt;a class="reference external" href="http://bytbox.net/blog/2012/08/leaving-github.html"&gt;here&lt;/a&gt;.  Particularly I
-remember being disatisifed with github's pull requests being incompatible with
-git's pull requests (an opinion shared by others, including &lt;a class="reference external" href="https://github.com/torvalds/linux/pull/17#issuecomment-5654674"&gt;Linus Torvalds&lt;/a&gt;).  I also remember seeing a few features in &lt;a class="reference external" href="http://www.redmine.org/"&gt;redmine&lt;/a&gt; that were not available in github's issue tracker, but I don't remember now what those features were.&lt;/p&gt;
-&lt;p&gt;I also suffer from the affliction of being fiercly independent.  Why let
-someone else host my stuff when I am perfectly capable of doing it on my own?&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="self-hosted-solution"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;Self-hosted Solution&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;So, I decided to move to an entirely self-hosted solution.  Well, not
-"entirely".  I had it all set up on a linode, not my own hardware, but apart
-from that I did it all myself.  I hosted the git repositories using &lt;a class="reference external" href="http://gitolite.com/gitolite/"&gt;gitolite&lt;/a&gt;
-and provided a browser view to them using &lt;a class="reference external" href="http://git.zx2c4.com/cgit/about/"&gt;cgit&lt;/a&gt;.  I set up a &lt;a class="reference external" href="http://www.redmine.org/"&gt;redmine&lt;/a&gt; issue
-tracker and had a &lt;a class="reference external" href="http://jenkins-ci.org/"&gt;jenkins&lt;/a&gt; continuous integration server, that were both
-tightly coupled to the git repositories containing the code they were
-interested in.  I had my own &lt;a class="reference external" href="https://wordpress.org/"&gt;wordpress&lt;/a&gt; instance to host my blog (which I
-eventually ditched for &lt;a class="reference external" href="http://blog.getpelican.com/"&gt;pelican&lt;/a&gt;).  I even eventually had my own instance of
-&lt;a class="reference external" href="https://readthedocs.org/"&gt;readthedocs&lt;/a&gt; to automatically build the documentation.  And all of this was
-hosted using &lt;a class="reference external" href="http://nginx.org/en/"&gt;nginx&lt;/a&gt; and &lt;a class="reference external" href="https://uwsgi-docs.readthedocs.org/en/latest/"&gt;uwsgi&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It was a pretty sweet setup.  It took several months to get setup, but by the
-end it was awesome.  But it was also fragile.&lt;/p&gt;
-&lt;p&gt;I initially tried to set it up on &lt;a class="reference external" href="http://centos.org/"&gt;centos&lt;/a&gt; and &lt;a class="reference external" href="https://www.debian.org/"&gt;debian&lt;/a&gt;, but I couldn't get
-redmine to work in uwsgi on either of those.  I finally tried again using
-&lt;a class="reference external" href="https://www.archlinux.org/"&gt;archlinux&lt;/a&gt; and was able to get it working.  This worked great for a while, but
-the redmine/uwsgi setup would break about once a month after updating the box,
-even when updating packages that didn't seem like they'd matter to the setup.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="reflecting-on-the-choice"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id3"&gt;Reflecting on the Choice&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I had just finished fixing the redmine/uwsgi setup again after an update from
-archlinux when I realized something.  I had just spent all of my free time for
-the day fixing my software infrastructure instead of doing what I really wanted
-to do, which was work on one of my software applications.  I pondered the
-situation over the next few days, and eventually decided to abandon my setup
-and move to a less self-hosted plan.  I do not regret my earlier decision to go
-self-hosted because I learned a lot about various technologies and about
-myself, but I am definitely ready for something else.&lt;/p&gt;
-&lt;p&gt;Here are some of the things I learned, in no particular order.  Maybe they will
-help other people make their own decision, but at least they will remind me of
-how I felt when I get the itch to do it myself in a few months or years.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;strong&gt;I would much rather spend my time developing my software applications than
-maintaining my software infrastructure.&lt;/strong&gt; I had come to this conclusion
-before when it came to Linux distributions and window managers vs. desktop
-environments, but it applies to this as well.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;I hate deploying ruby/rails apps.&lt;/strong&gt;  The php and C applications I deployed
-were all very simple to setup, but the ruby/rails applications were much
-harder to do and much more fragile.  The python applications I tried were
-also a challenge, but they didn't seem near as bad as the ruby ones.  Maybe I
-just need more experience, but my current thinking is I will never host my
-own ruby application ever again.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="section" id="back-to-github"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id4"&gt;Back to Github&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;So, here I am, moving back to &lt;a class="reference external" href="https://github.com"&gt;github&lt;/a&gt;.  I'll do everything I can on github,
-like issue tracking and git hosting, and I'll use &lt;a class="reference external" href="https://readthedocs.org/"&gt;readthedocs&lt;/a&gt; to host my
-documentation and &lt;a class="reference external" href="https://travis-ci.org/"&gt;travis-ci&lt;/a&gt; to host my continuous integration testing.  I've
-even moved my blog to using github pages.  Hopefully this will be a good
-solution for me.  At a minimum it will leave me more time to actually work in
-my applications.&lt;/p&gt;
-&lt;/div&gt;
-</summary><category term="archlinux"></category><category term="centos"></category><category term="cgit"></category><category term="debian"></category><category term="git"></category><category term="github"></category><category term="gitolite"></category><category term="jenkins"></category><category term="nginx"></category><category term="redmine"></category><category term="travis-ci"></category><category term="uwsgi"></category><category term="wordpress"></category></entry></feed>
+</summary><category term="d&amp;d"></category><category term="myth-weavers"></category><category term="Pathfinder"></category><category term="rpg"></category><category term="thetangledweb"></category></entry></feed>
