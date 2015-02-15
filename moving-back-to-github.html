@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>    Moving Back to Github
+</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+            <link rel="stylesheet" href="https://lamberss.github.io/theme/css/normalize.css">
+        <link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://lamberss.github.io/theme/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://lamberss.github.io/theme/css/main.css">
+
+    <link rel="stylesheet" href="https://lamberss.github.io/theme/css/blog.css">
+    <link rel="stylesheet" href="https://lamberss.github.io/theme/css/github.css">
+        <link href="https://lamberss.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Computing, Gaming, and Physics Atom Feed" />
+        <script src="https://lamberss.github.io/theme/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="wrapper">
+<header id="sidebar" class="side-shadow">
+    <hgroup id="site-header">
+        <a id="site-title" href="https://lamberss.github.io"><h1><i class="icon-coffee"></i> Computing, Gaming, and Physics</h1></a>
+        <p id="site-desc"></p>
+    </hgroup>
+    <nav>
+        <ul id="nav-links">
+        </ul>
+    </nav>
+<footer id="site-info">
+    <p>
+        Proudly powered by <a href="http://getpelican.com/">Pelican</a> and <a href="http://python.org/">Python</a>. Theme by<a href="https://github.com/hdra/pelican-cait">hndr</a>.
+    </p>
+    <p>
+        Textures by <a href="http://subtlepatterns.com/">Subtle Pattern</a>. Font Awesome by <a href="http://fortawesome.github.io/Font-Awesome/">Dave Grandy</a>.
+    </p>
+</footer></header>
+    <div id="post-container">
+        <ol id="post-list">
+            <li>
+                <article class="post-entry">
+                    <header class="entry-header">
+                        <time class="post-time" datetime="2014-12-20T00:00:00-06:00" pubdate>
+                            Sat 20 December 2014
+                        </time>
+                        <a href="https://lamberss.github.io/moving-back-to-github.html" rel="bookmark"><h1>Moving Back to Github</h1></a>
+                    </header>
+
+                    <section class="post-content">
+                        <div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#once-upon-a-time" id="id1">Once Upon A Time</a></li>
+<li><a class="reference internal" href="#self-hosted-solution" id="id2">Self-hosted Solution</a></li>
+<li><a class="reference internal" href="#reflecting-on-the-choice" id="id3">Reflecting on the Choice</a></li>
+<li><a class="reference internal" href="#back-to-github" id="id4">Back to Github</a></li>
+</ul>
+</div>
+<img alt="" class="align-left" src="https://lamberss.github.io/images/Octocat.png" style="width: 150px;" />
+<div class="section" id="once-upon-a-time">
+<h2><a class="toc-backref" href="#id1">Once Upon A Time</a></h2>
+<p>Once upon a time, a long time ago, I was a happy <a class="reference external" href="https://github.com">github</a> user.  However these
+were the days before github pages, <a class="reference external" href="https://travis-ci.org/">travis-ci</a>, and <a class="reference external" href="https://readthedocs.org/">readthedocs</a> (or, if they
+existed, I didn't know about them).  I needed to have some other service to
+host my blog, do my continuous integration testing, and host my software's
+built documentation.  After looking around for options I decided that I was
+just going to host them myself using <a class="reference external" href="https://wordpress.org/">wordpress</a>, <a class="reference external" href="http://jenkins-ci.org/">jenkins</a>, and some home-grown
+post-commit hooks to build and move the documentation to my web server.</p>
+<p>Since I was going to be hosting some of my own applications anyway, I started
+wondering if I should replace github with my own git repository mirror and
+issue tracker.  I don't remember all my thoughts that went into that decision,
+but I do remember holding many of the opinions expressed <a class="reference external" href="http://bytbox.net/blog/2012/08/leaving-github.html">here</a>.  Particularly I
+remember being disatisifed with github's pull requests being incompatible with
+git's pull requests (an opinion shared by others, including <a class="reference external" href="https://github.com/torvalds/linux/pull/17#issuecomment-5654674">Linus Torvalds</a>).  I also remember seeing a few features in <a class="reference external" href="http://www.redmine.org/">redmine</a> that were not available in github's issue tracker, but I don't remember now what those features were.</p>
+<p>I also suffer from the affliction of being fiercly independent.  Why let
+someone else host my stuff when I am perfectly capable of doing it on my own?</p>
+</div>
+<div class="section" id="self-hosted-solution">
+<h2><a class="toc-backref" href="#id2">Self-hosted Solution</a></h2>
+<p>So, I decided to move to an entirely self-hosted solution.  Well, not
+&quot;entirely&quot;.  I had it all set up on a linode, not my own hardware, but apart
+from that I did it all myself.  I hosted the git repositories using <a class="reference external" href="http://gitolite.com/gitolite/">gitolite</a>
+and provided a browser view to them using <a class="reference external" href="http://git.zx2c4.com/cgit/about/">cgit</a>.  I set up a <a class="reference external" href="http://www.redmine.org/">redmine</a> issue
+tracker and had a <a class="reference external" href="http://jenkins-ci.org/">jenkins</a> continuous integration server, that were both
+tightly coupled to the git repositories containing the code they were
+interested in.  I had my own <a class="reference external" href="https://wordpress.org/">wordpress</a> instance to host my blog (which I
+eventually ditched for <a class="reference external" href="http://blog.getpelican.com/">pelican</a>).  I even eventually had my own instance of
+<a class="reference external" href="https://readthedocs.org/">readthedocs</a> to automatically build the documentation.  And all of this was
+hosted using <a class="reference external" href="http://nginx.org/en/">nginx</a> and <a class="reference external" href="https://uwsgi-docs.readthedocs.org/en/latest/">uwsgi</a>.</p>
+<p>It was a pretty sweet setup.  It took several months to get setup, but by the
+end it was awesome.  But it was also fragile.</p>
+<p>I initially tried to set it up on <a class="reference external" href="http://centos.org/">centos</a> and <a class="reference external" href="https://www.debian.org/">debian</a>, but I couldn't get
+redmine to work in uwsgi on either of those.  I finally tried again using
+<a class="reference external" href="https://www.archlinux.org/">archlinux</a> and was able to get it working.  This worked great for a while, but
+the redmine/uwsgi setup would break about once a month after updating the box,
+even when updating packages that didn't seem like they'd matter to the setup.</p>
+</div>
+<div class="section" id="reflecting-on-the-choice">
+<h2><a class="toc-backref" href="#id3">Reflecting on the Choice</a></h2>
+<p>I had just finished fixing the redmine/uwsgi setup again after an update from
+archlinux when I realized something.  I had just spent all of my free time for
+the day fixing my software infrastructure instead of doing what I really wanted
+to do, which was work on one of my software applications.  I pondered the
+situation over the next few days, and eventually decided to abandon my setup
+and move to a less self-hosted plan.  I do not regret my earlier decision to go
+self-hosted because I learned a lot about various technologies and about
+myself, but I am definitely ready for something else.</p>
+<p>Here are some of the things I learned, in no particular order.  Maybe they will
+help other people make their own decision, but at least they will remind me of
+how I felt when I get the itch to do it myself in a few months or years.</p>
+<ul class="simple">
+<li><strong>I would much rather spend my time developing my software applications than
+maintaining my software infrastructure.</strong> I had come to this conclusion
+before when it came to Linux distributions and window managers vs. desktop
+environments, but it applies to this as well.</li>
+<li><strong>I hate deploying ruby/rails apps.</strong>  The php and C applications I deployed
+were all very simple to setup, but the ruby/rails applications were much
+harder to do and much more fragile.  The python applications I tried were
+also a challenge, but they didn't seem near as bad as the ruby ones.  Maybe I
+just need more experience, but my current thinking is I will never host my
+own ruby application ever again.</li>
+</ul>
+</div>
+<div class="section" id="back-to-github">
+<h2><a class="toc-backref" href="#id4">Back to Github</a></h2>
+<p>So, here I am, moving back to <a class="reference external" href="https://github.com">github</a>.  I'll do everything I can on github,
+like issue tracking and git hosting, and I'll use <a class="reference external" href="https://readthedocs.org/">readthedocs</a> to host my
+documentation and <a class="reference external" href="https://travis-ci.org/">travis-ci</a> to host my continuous integration testing.  I've
+even moved my blog to using github pages.  Hopefully this will be a good
+solution for me.  At a minimum it will leave me more time to actually work in
+my applications.</p>
+</div>
+
+                    </section>
+                    <hr/>
+                    <aside class="post-meta">
+                        <p>Category: <a href="https://lamberss.github.io/category/computing.html">Computing</a></p>
+                        <p>Tags: <a href="https://lamberss.github.io/tag/archlinux.html">archlinux</a>, <a href="https://lamberss.github.io/tag/centos.html">centos</a>, <a href="https://lamberss.github.io/tag/cgit.html">cgit</a>, <a href="https://lamberss.github.io/tag/debian.html">debian</a>, <a href="https://lamberss.github.io/tag/git.html">git</a>, <a href="https://lamberss.github.io/tag/github.html">github</a>, <a href="https://lamberss.github.io/tag/gitolite.html">gitolite</a>, <a href="https://lamberss.github.io/tag/jenkins.html">jenkins</a>, <a href="https://lamberss.github.io/tag/nginx.html">nginx</a>, <a href="https://lamberss.github.io/tag/redmine.html">redmine</a>, <a href="https://lamberss.github.io/tag/travis-ci.html">travis-ci</a>, <a href="https://lamberss.github.io/tag/uwsgi.html">uwsgi</a>, <a href="https://lamberss.github.io/tag/wordpress.html">wordpress</a>, </p>
+                    </aside>
+                    <hr/>
+<div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'lamberss';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+                </article>
+            </li>
+        </ol>
+    </div>
+        </div>
+
+        <script src="https://lamberss.github.io/theme/js/main.js"></script>
+    </body>
+</html>
