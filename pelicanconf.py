@@ -34,5 +34,16 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = False
 
+# Plugins
+PLUGIN_PATHS = ['/home/lamberss/.pelican-plugins']
+PLUGINS = ['better_figures_and_images']
+RESPONSIVE_IMAGES = True
+
 # THEME
-THEME = "/home/lamberss/.pelican-themes/pelican-cait"
+THEME = "/home/lamberss/.pelican-themes/pelican-bootstrap3"
+BOOTSTRAP_THEME = "simplex"
+SHOW_ARTICLE_AUTHOR = True
+SHOW_ARTICLE_CATEGORY = True
+SHOW_DATE_MODIFIED = True
+DISPLAY_TAGS_INLINE = True
+CC_LICENSE = 'CC-BY-SA'

@@ -2,7 +2,7 @@ Moving Back to Github
 #####################
 
 :date: Dec 20, 2014 
-:modified: Jan 8, 2015
+:modified: Apr 15, 2015
 :slug: moving-back-to-github
 :authors: Steven E. Lamberson Jr.
 :tags: archlinux, centos, cgit, debian, git, github, gitolite, jenkins, nginx, redmine, travis-ci, uwsgi, wordpress
@@ -12,8 +12,8 @@ Moving Back to Github
 .. contents::
 
 .. image:: {filename}/images/Octocat.png
-	   :width: 150px
-	   :align: left
+           :alt: The Github octopus.
+           :align: center
 
 Once Upon A Time
 ----------------
