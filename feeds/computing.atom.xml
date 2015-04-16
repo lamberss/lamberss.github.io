@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Computing, Gaming, and Physics</title><link href="https://lamberss.github.io/" rel="alternate"></link><link href="https://lamberss.github.io/feeds/computing.atom.xml" rel="self"></link><id>https://lamberss.github.io/</id><updated>2015-01-08T00:00:00-06:00</updated><entry><title>Moving Back to Github</title><link href="https://lamberss.github.io/moving-back-to-github.html" rel="alternate"></link><updated>2015-01-08T00:00:00-06:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2014-12-20:moving-back-to-github.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Computing, Gaming, and Physics</title><link href="https://lamberss.github.io/" rel="alternate"></link><link href="https://lamberss.github.io/feeds/computing.atom.xml" rel="self"></link><id>https://lamberss.github.io/</id><updated>2015-04-15T00:00:00-05:00</updated><entry><title>Moving Back to Github</title><link href="https://lamberss.github.io/moving-back-to-github.html" rel="alternate"></link><updated>2015-04-15T00:00:00-05:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2014-12-20:moving-back-to-github.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
 &lt;p class="topic-title first"&gt;Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#once-upon-a-time" id="id1"&gt;Once Upon A Time&lt;/a&gt;&lt;/li&gt;
@@ -8,7 +8,7 @@
 &lt;li&gt;&lt;a class="reference internal" href="#back-to-github" id="id4"&gt;Back to Github&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;img alt="" class="align-left" src="https://lamberss.github.io/images/Octocat.png" style="width: 150px;" /&gt;
+&lt;img alt="The Github octopus." class="align-center" src="https://lamberss.github.io/images/Octocat.png" style="width: 800px; height: auto; max-width: 100%;"/&gt;
 &lt;div class="section" id="once-upon-a-time"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Once Upon A Time&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Once upon a time, a long time ago, I was a happy &lt;a class="reference external" href="https://github.com"&gt;github&lt;/a&gt; user.  However these
@@ -30,7 +30,7 @@ someone else host my stuff when I am perfectly capable of doing it on my own?&lt
 &lt;div class="section" id="self-hosted-solution"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;Self-hosted Solution&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;So, I decided to move to an entirely self-hosted solution.  Well, not
-&amp;quot;entirely&amp;quot;.  I had it all set up on a linode, not my own hardware, but apart
+"entirely".  I had it all set up on a linode, not my own hardware, but apart
 from that I did it all myself.  I hosted the git repositories using &lt;a class="reference external" href="http://gitolite.com/gitolite/"&gt;gitolite&lt;/a&gt;
 and provided a browser view to them using &lt;a class="reference external" href="http://git.zx2c4.com/cgit/about/"&gt;cgit&lt;/a&gt;.  I set up a &lt;a class="reference external" href="http://www.redmine.org/"&gt;redmine&lt;/a&gt; issue
 tracker and had a &lt;a class="reference external" href="http://jenkins-ci.org/"&gt;jenkins&lt;/a&gt; continuous integration server, that were both
