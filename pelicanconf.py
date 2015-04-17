@@ -55,5 +55,5 @@ SHOW_DATE_MODIFIED = True
 DISPLAY_TAGS_INLINE = True
 CC_LICENSE = 'CC-BY-SA'
 ABOUT_ME = 'I like playing games, writing software, and numerical physics.'
-AVATAR = 'images/profile.jpg'
+AVATAR = '/images/profile.jpg'
 CUSTOM_CSS = 'custom.css'
