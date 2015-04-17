@@ -1,8 +1,8 @@
 Moving Back to Github
 #####################
 
-:date: Dec 20, 2014 
-:modified: Apr 17, 2015
+:date: 2014-12-20
+:modified: 2015-04-17
 :slug: moving-back-to-github
 :authors: Steven E. Lamberson Jr.
 :tags: archlinux, centos, cgit, debian, git, github, gitolite, jenkins, nginx, redmine, travis-ci, uwsgi, wordpress

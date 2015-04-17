@@ -11,6 +11,7 @@ PATH = 'content'
 TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = 'en'
+DATE_FORMATS = { 'en': '%Y-%m-%d' }
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

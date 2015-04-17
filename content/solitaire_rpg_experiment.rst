@@ -1,8 +1,8 @@
 Solitaire RPG Experiment
 ########################
 
-:date: Feb 13, 2015
-:modified: Apr 17, 2015
+:date: 2015-02-13
+:modified: 2015-04-17
 :slug: solitaire-rpg-experiment
 :authors: Steven E. Lamberson Jr.
 :tags: d&d, myth-weavers, Pathfinder, rpg, thetangledweb
