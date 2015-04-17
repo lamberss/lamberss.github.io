@@ -2,7 +2,7 @@ Solitaire RPG Experiment
 ########################
 
 :date: Feb 13, 2015
-:modified: Apr 15, 2015
+:modified: Apr 17, 2015
 :slug: solitaire-rpg-experiment
 :authors: Steven E. Lamberson Jr.
 :tags: d&d, myth-weavers, Pathfinder, rpg, thetangledweb
@@ -11,9 +11,13 @@ Solitaire RPG Experiment
 
 .. contents::
 
-.. image:: {filename}/images/dice_and_sheets.jpg
-           :alt: Dice and a character sheet.
-	   :align: center
+.. figure:: {filename}/images/dice_and_sheets.jpg
+    :alt: Dice and a character sheet.
+    :align: left
+
+    Dice and a character sheet for Pathfinder_.
+
+    Image: Copyright 2015 Steven E. Lamberson, Jr.
 
 When Addicitons Aren't Fed
 --------------------------

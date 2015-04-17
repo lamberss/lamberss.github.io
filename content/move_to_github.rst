@@ -2,7 +2,7 @@ Moving Back to Github
 #####################
 
 :date: Dec 20, 2014 
-:modified: Apr 15, 2015
+:modified: Apr 17, 2015
 :slug: moving-back-to-github
 :authors: Steven E. Lamberson Jr.
 :tags: archlinux, centos, cgit, debian, git, github, gitolite, jenkins, nginx, redmine, travis-ci, uwsgi, wordpress
@@ -11,9 +11,11 @@ Moving Back to Github
 
 .. contents::
 
-.. image:: {filename}/images/Octocat.png
-           :alt: The Github octopus.
-           :align: center
+.. figure:: {filename}/images/Octocat.png
+    :alt: The Github octopus.
+    :align: left
+
+    The Github octocat_.
 
 Once Upon A Time
 ----------------
@@ -108,6 +110,7 @@ my applications.
 .. _jenkins: http://jenkins-ci.org/
 .. _Linus Torvalds: https://github.com/torvalds/linux/pull/17#issuecomment-5654674
 .. _nginx: http://nginx.org/en/
+.. _octocat: https://github.com/logos
 .. _pelican: http://blog.getpelican.com/
 .. _readthedocs: https://readthedocs.org/
 .. _redmine: http://www.redmine.org/
