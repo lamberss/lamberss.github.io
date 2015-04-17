@@ -15,9 +15,7 @@ Solitaire RPG Experiment
     :alt: Dice and a character sheet.
     :align: left
 
-    Dice and a character sheet for Pathfinder_.
-
-    Image: Copyright 2015 Steven E. Lamberson, Jr.
+    Dice and a character sheet for Pathfinder_.  Copyright 2015 Steven E. Lamberson, Jr.
 
 When Addicitons Aren't Fed
 --------------------------

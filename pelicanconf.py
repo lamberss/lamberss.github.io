@@ -36,14 +36,16 @@ RELATIVE_URLS = False
 
 # Plugins
 PLUGIN_PATHS = ['/home/lamberss/.pelican-plugins']
-PLUGINS = ['better_figures_and_images']
+PLUGINS = ['better_figures_and_images', 'neighbors']
 RESPONSIVE_IMAGES = True
 
 # THEME
 THEME = "/home/lamberss/.pelican-themes/pelican-bootstrap3"
-BOOTSTRAP_THEME = "simplex"
+BOOTSTRAP_THEME = "flatly"
 SHOW_ARTICLE_AUTHOR = True
 SHOW_ARTICLE_CATEGORY = True
 SHOW_DATE_MODIFIED = True
 DISPLAY_TAGS_INLINE = True
 CC_LICENSE = 'CC-BY-SA'
+ABOUT_ME = 'I like playing games, writing software, and numerical physics.'
+AVATAR = 'images/profile.jpg'
