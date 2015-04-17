@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Computing, Gaming, and Physics</title><link href="https://lamberss.github.io/" rel="alternate"></link><link href="https://lamberss.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lamberss.github.io/</id><updated>2015-04-15T00:00:00-05:00</updated><entry><title>Solitaire RPG Experiment</title><link href="https://lamberss.github.io/solitaire-rpg-experiment.html" rel="alternate"></link><updated>2015-04-15T00:00:00-05:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2015-02-13:solitaire-rpg-experiment.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Computing, Gaming, and Physics</title><link href="https://lamberss.github.io/" rel="alternate"></link><link href="https://lamberss.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lamberss.github.io/</id><updated>2015-04-17T00:00:00-05:00</updated><entry><title>Solitaire RPG Experiment</title><link href="https://lamberss.github.io/solitaire-rpg-experiment.html" rel="alternate"></link><updated>2015-04-17T00:00:00-05:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2015-02-13:solitaire-rpg-experiment.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
 &lt;p class="topic-title first"&gt;Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#when-addicitons-aren-t-fed" id="id1"&gt;When Addicitons Aren't Fed&lt;/a&gt;&lt;/li&gt;
@@ -9,7 +9,12 @@
 &lt;li&gt;&lt;a class="reference internal" href="#remember-the-word-experiment" id="id5"&gt;Remember the word "experiment"?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;img alt="Dice and a character sheet." class="align-center" src="https://lamberss.github.io/images/dice_and_sheets.jpg" style="width: 736px; height: auto; max-width: 100%;"/&gt;
+&lt;div class="figure align-left" style="width: 300px; height: auto; max-width: 100%;"&gt;
+&lt;img alt="Dice and a character sheet." src="https://lamberss.github.io/images/dice_and_sheets.jpg" style="width: 300px; height: auto; max-width: 100%;"/&gt;
+&lt;p class="caption"&gt;Dice and a character sheet for &lt;a class="reference external" href="http://paizo.com/Pathfinder"&gt;Pathfinder&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="legend"&gt;
+Image: Copyright 2015 Steven E. Lamberson, Jr.&lt;/div&gt;
+&lt;/div&gt;
 &lt;div class="section" id="when-addicitons-aren-t-fed"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;When Addicitons Aren't Fed&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I love playing tabletop, pen-and-paper role-playing games (RPGs).  In fact, I
@@ -167,7 +172,7 @@ will be able to take this framework and apply it to my own content in order
 to actually start writing that book I've been thinking about for almost 20
 years.&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="d&amp;d"></category><category term="myth-weavers"></category><category term="Pathfinder"></category><category term="rpg"></category><category term="thetangledweb"></category></entry><entry><title>Moving Back to Github</title><link href="https://lamberss.github.io/moving-back-to-github.html" rel="alternate"></link><updated>2015-04-15T00:00:00-05:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2014-12-20:moving-back-to-github.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
+</summary><category term="d&amp;d"></category><category term="myth-weavers"></category><category term="Pathfinder"></category><category term="rpg"></category><category term="thetangledweb"></category></entry><entry><title>Moving Back to Github</title><link href="https://lamberss.github.io/moving-back-to-github.html" rel="alternate"></link><updated>2015-04-17T00:00:00-05:00</updated><author><name>Steven E. Lamberson Jr.</name></author><id>tag:lamberss.github.io,2014-12-20:moving-back-to-github.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
 &lt;p class="topic-title first"&gt;Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#once-upon-a-time" id="id1"&gt;Once Upon A Time&lt;/a&gt;&lt;/li&gt;
@@ -176,7 +181,10 @@ years.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#back-to-github" id="id4"&gt;Back to Github&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;img alt="The Github octopus." class="align-center" src="https://lamberss.github.io/images/Octocat.png" style="width: 800px; height: auto; max-width: 100%;"/&gt;
+&lt;div class="figure align-left" style="width: 300px; height: auto; max-width: 100%;"&gt;
+&lt;img alt="The Github octopus." src="https://lamberss.github.io/images/Octocat.png" style="width: 300px; height: auto; max-width: 100%;"/&gt;
+&lt;p class="caption"&gt;The Github &lt;a class="reference external" href="https://github.com/logos"&gt;octocat&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class="section" id="once-upon-a-time"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Once Upon A Time&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Once upon a time, a long time ago, I was a happy &lt;a class="reference external" href="https://github.com"&gt;github&lt;/a&gt; user.  However these
