@@ -40,6 +40,12 @@ PLUGIN_PATHS = ['/home/lamberss/.pelican-plugins']
 PLUGINS = ['better_figures_and_images', 'neighbors']
 RESPONSIVE_IMAGES = True
 
+# Static paths
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'custom.css'}
+}
+
 # THEME
 THEME = "/home/lamberss/.pelican-themes/pelican-bootstrap3"
 BOOTSTRAP_THEME = "flatly"
@@ -50,3 +56,4 @@ DISPLAY_TAGS_INLINE = True
 CC_LICENSE = 'CC-BY-SA'
 ABOUT_ME = 'I like playing games, writing software, and numerical physics.'
 AVATAR = 'images/profile.jpg'
+CUSTOM_CSS = 'custom.css'
