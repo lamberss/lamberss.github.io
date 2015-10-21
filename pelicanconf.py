@@ -57,3 +57,6 @@ CC_LICENSE = 'CC-BY-SA'
 ABOUT_ME = 'I like playing games, writing software, and numerical physics.'
 AVATAR = '/images/profile.jpg'
 CUSTOM_CSS = 'custom.css'
+
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
