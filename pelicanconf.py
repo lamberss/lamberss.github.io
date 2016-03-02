@@ -43,7 +43,8 @@ RESPONSIVE_IMAGES = True
 # Static paths
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {
-    'extra/custom.css': {'path': 'custom.css'}
+    'extra/custom.css': {'path': 'custom.css'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
 # THEME
